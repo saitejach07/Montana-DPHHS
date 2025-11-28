@@ -6,7 +6,7 @@ Last Updated: November 28, 2025
 
 ---
 
-## 📋 Table of Contents
+## 📋 Table of Content
 
 1. [Frontend Technologies](#frontend-technologies)
 2. [Build Tools & Development](#build-tools--development)
