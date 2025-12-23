@@ -46,7 +46,7 @@ export function LoadingState({ message = 'Loading...', variant = 'default' }: Lo
       
       {/* Message */}
       <p className="text-slate-600 text-lg">{message}</p>
-      <p className="text-slate-500 text-sm mt-2">Montana DPHHS</p>
+      <p className="text-slate-500 text-sm mt-2">AgileTech</p>
     </div>
   );
 }

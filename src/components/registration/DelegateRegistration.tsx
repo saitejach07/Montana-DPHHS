@@ -35,7 +35,7 @@ export function DelegateRegistration({ onComplete, onBack }: DelegateRegistratio
     if (invitationCode === 'DEMO-INVITE-2024' || invitationCode.length >= 12) {
       setInvitationValid(true);
       setOrganizationInfo({
-        name: 'Montana Medical Group',
+        name: 'Regional Medical Group',
         npi: '1234567890',
         ownerName: 'Dr. Sarah Administrator',
       });

@@ -1,7 +1,7 @@
 import { ShieldCheck as Shield, UserCheck, Users, ArrowLeft, AlertCircle } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { ImageWithFallback } from '../Fallback_Img/ImageWithFallback';
 
 interface RegistrationChoiceProps {
   onSelectOwner: () => void;
@@ -29,7 +29,7 @@ export function RegistrationChoice({ onSelectOwner, onSelectDelegate, onBack }: 
           </div>
           <h1 className="text-slate-900 text-4xl mb-2">Getting Started</h1>
           <p className="text-slate-600 text-lg max-w-3xl mx-auto">
-            Welcome to the Montana Provider Portal. Our portal gives providers the ability to submit claims, create claim templates, and manage portal users.
+            Welcome to the Provider Portal. Our portal gives providers the ability to submit claims, create claim templates, and manage portal users.
           </p>
         </div>
 
