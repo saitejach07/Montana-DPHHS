@@ -1,7 +1,7 @@
 import { ShieldCheck as Shield, Users, Activity, ArrowRight, CheckCircle, Lock, FileText, ClipboardCheck, Building2, UserCheck, Megaphone, Monitor, BookOpen } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './Fallback_Img/ImageWithFallback';
 
 interface LandingPageProps {
   onNavigateToProviderAuth: () => void;
@@ -21,7 +21,7 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-slate-900">Montana DPHHS</h1>
+                <h1 className="text-slate-900">AgileTech</h1>
                 <p className="text-slate-600">Provider Enrollment Portal</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
         <div className="absolute inset-0 rounded-3xl overflow-hidden opacity-10">
           <ImageWithFallback 
             src="https://images.unsplash.com/photo-1609366314419-6f463a285a7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxNb250YW5hJTIwbW91bnRhaW5zJTIwbGFuZHNjYXBlfGVufDF8fHx8MTc2MzU5Mjc1M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Montana Mountains"
+            alt="Mountain Landscape"
             className="w-full h-full object-cover"
           />
         </div>
@@ -47,13 +47,13 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
         <div className="relative text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-teal-100 text-teal-700 rounded-full mb-6">
             <Shield className="w-4 h-4" />
-            <span>Montana Department of Public Health & Human Services</span>
+            <span>AgileTech Healthcare Systems</span>
           </div>
           <h1 className="text-slate-900 text-6xl mb-4">
             Provider Enrollment Portal
           </h1>
           <p className="text-slate-600 text-2xl max-w-3xl mx-auto mb-8">
-            Streamlined enrollment, credentialing, and claims management for Montana Medicaid healthcare providers
+            Streamlined enrollment, credentialing, and claims management for healthcare providers
           </p>
         </div>
       </section>
@@ -123,7 +123,7 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
               </div>
               <CardTitle className="text-2xl text-slate-900">State Agent</CardTitle>
               <CardDescription className="text-base">
-                For Montana DPHHS staff
+                For AgileTech staff
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4 flex flex-col flex-grow">
@@ -221,10 +221,10 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Shield className="w-6 h-6" />
-                <span>Montana Healthcare Programs</span>
+                <span>AgileTech Healthcare Programs</span>
               </div>
               <p className="text-slate-400 text-sm">
-                Provider enrollment and management platform for Montana Medicaid
+                Provider enrollment and management platform for healthcare providers
               </p>
             </div>
             <div>
@@ -256,7 +256,7 @@ export function LandingPage({ onNavigateToProviderAuth, onNavigateToStateAgentAu
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400 text-sm">
-            <p>&copy; 2025 Montana Healthcare Programs. All rights reserved.</p>
+            <p>&copy; 2025 AgileTech Healthcare Programs. All rights reserved.</p>
           </div>
         </div>
       </footer>

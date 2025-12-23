@@ -1,7 +1,7 @@
 import { ShieldCheck as Shield, ArrowRight, CheckCircle, UserPlus, FileCheck, ClipboardList, DollarSign, ArrowLeft, Users, Building2 } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './Fallback_Img/ImageWithFallback';
 import { useEffect } from 'react';
 
 interface WorkflowGuidePageProps {
@@ -28,7 +28,7 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-slate-900">Montana DPHHS</h1>
+                <h1 className="text-slate-900">AgileTech</h1>
                 <p className="text-slate-600">Provider Enrollment Portal</p>
               </div>
             </div>
@@ -49,24 +49,24 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
           </div>
           <h1 className="text-slate-900 text-5xl mb-4">Getting Started</h1>
           <p className="text-slate-600 text-xl max-w-3xl mx-auto">
-            Learn how to apply to the Montana DPHHS Provider Enrollment Program. Follow our simple workflow to register and start providing services.
+            Learn how to apply to the AgileTech Provider Enrollment Program. Follow our simple workflow to register and start providing services.
           </p>
         </div>
       </section>
 
       {/* Registration Types */}
       <section className="max-w-7xl mx-auto px-6 py-8">
-        {/* Montana Capitol Building Banner */}
+        {/* Capitol Building Banner */}
         <div className="relative h-64 rounded-2xl overflow-hidden mb-12 shadow-xl">
           <ImageWithFallback 
             src="https://images.unsplash.com/photo-1716744446751-4d14d26c8e55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxNb250YW5hJTIwY2FwaXRvbCUyMGJ1aWxkaW5nJTIwZ292ZXJubWVudHxlbnwxfHx8fDE3NjM1OTI3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Montana State Capitol"
+            alt="Capitol Building"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-teal-900/80 to-blue-900/60 flex items-center justify-center">
             <div className="text-center text-white px-6">
-              <h2 className="text-4xl mb-2">Official Montana DPHHS Portal</h2>
-              <p className="text-xl text-teal-100">Serving Montana healthcare providers since 1965</p>
+              <h2 className="text-4xl mb-2">Official AgileTech Portal</h2>
+              <p className="text-xl text-teal-100">Serving healthcare providers since 1965</p>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
       <section className="max-w-7xl mx-auto px-6 py-16 bg-white/50 rounded-2xl" id="workflow-section">
         <div className="text-center mb-12">
           <h2 className="text-slate-900 text-3xl mb-4">Provider Enrollment Workflow</h2>
-          <p className="text-slate-600 text-lg">Complete these steps to enroll as a Montana Medicaid provider</p>
+          <p className="text-slate-600 text-lg">Complete these steps to enroll as a healthcare provider</p>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-6">
@@ -235,7 +235,7 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
                   <span className="text-teal-600">5</span>
                 </div>
                 <div>
-                  <CardTitle className="text-xl text-slate-900 mb-2">Montana DPHHS Review</CardTitle>
+                  <CardTitle className="text-xl text-slate-900 mb-2">AgileTech Review</CardTitle>
                   <CardDescription className="text-base">
                     State agents review your enrollment application, verify credentials through CAQH, and validate all submitted documentation. Track your application status in real-time through your provider dashboard.
                   </CardDescription>
@@ -268,7 +268,7 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
         <div className="bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl p-12 text-center text-white">
           <h2 className="text-4xl mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8 text-teal-50">
-            Begin your Montana DPHHS provider enrollment today
+            Begin your AgileTech provider enrollment today
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
@@ -297,10 +297,10 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Shield className="w-6 h-6" />
-                <span>Montana Healthcare Programs</span>
+                <span>AgileTech Healthcare Programs</span>
               </div>
               <p className="text-slate-400 text-sm">
-                Provider enrollment and management platform for Montana Medicaid
+                Provider enrollment and management platform for healthcare providers
               </p>
             </div>
             <div>
@@ -332,7 +332,7 @@ export function WorkflowGuidePage({ onNavigateBack }: WorkflowGuidePageProps) {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400 text-sm">
-            <p>&copy; 2025 Montana Healthcare Programs. All rights reserved.</p>
+            <p>&copy; 2025 AgileTech Healthcare Programs. All rights reserved.</p>
           </div>
         </div>
       </footer>

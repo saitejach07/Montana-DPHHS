@@ -5,7 +5,7 @@ import { Badge } from '../ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../ui/table';
 import { Avatar, AvatarFallback } from '../ui/avatar';
 import { Input } from '../ui/input';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { ImageWithFallback } from '../Fallback_Img/ImageWithFallback';
 import { EmptyState } from '../EmptyState';
 import { useState } from 'react';
 import type { User, Claim } from '../../App';

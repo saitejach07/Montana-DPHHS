@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { ImageWithFallback } from '../Fallback_Img/ImageWithFallback';
 import type { UserRole } from '../../App';
 
 interface LoginProps {
@@ -46,7 +46,7 @@ export function Login({ onLogin, onNavigateToRegister, onBack, portalType }: Log
             {isProvider ? 'Provider Portal' : 'State Agent Portal'}
           </h1>
           <p className="text-2xl text-teal-100 mb-8">
-            Montana Department of Public Health & Human Services
+            AgileTech Healthcare Systems
           </p>
           <div className="space-y-4 text-teal-50">
             {isProvider ? (
@@ -122,7 +122,7 @@ export function Login({ onLogin, onNavigateToRegister, onBack, portalType }: Log
             <h1 className="text-slate-900 text-3xl mb-2">
               {isProvider ? 'Provider Portal' : 'State Agent Portal'}
             </h1>
-            <p className="text-slate-600">Montana DPHHS</p>
+            <p className="text-slate-600">AgileTech</p>
           </div>
 
           {/* Desktop Header */}

@@ -6,7 +6,7 @@ import { Badge } from '../ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../ui/table';
 import { Avatar, AvatarFallback } from '../ui/avatar';
 import { Input } from '../ui/input';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { ImageWithFallback } from '../Fallback_Img/ImageWithFallback';
 import type { User, Claim } from '../../App';
 import type { PatientData } from '../member/PatientEditModal';
 
@@ -123,7 +123,7 @@ export function StateAgentDashboard({ user, onLogout, claims, patients }: StateA
               </div>
               <div>
                 <h1 className="text-slate-900 text-2xl">State Agent Portal</h1>
-                <p className="text-slate-600">Montana DPHHS</p>
+                <p className="text-slate-600">AgileTech</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -503,7 +503,7 @@ export function StateAgentDashboard({ user, onLogout, claims, patients }: StateA
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <p className="text-white text-sm mb-1">Data-Driven Healthcare</p>
-                  <p className="text-white/80 text-xs">Managing Montana Medicaid with precision</p>
+                  <p className="text-white/80 text-xs">Managing healthcare with precision</p>
                 </div>
               </div>
             </Card>
